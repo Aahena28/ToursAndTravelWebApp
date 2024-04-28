@@ -1,0 +1,31 @@
+# Ignore Node.js dependencies in both frontend and backend
+frontend/node_modules/
+backend/node_modules/
+
+# Ignore build directories in both frontend and backend
+frontend/build/
+frontend/dist/
+backend/build/
+backend/dist/
+
+# Ignore environment variables in both frontend and backend
+frontend/.env
+backend/.env
+
+# Ignore IDE/editor specific files in both frontend and backend
+frontend/.vscode/
+backend/.vscode/
+frontend/.idea/
+backend/.idea/
+
+# Ignore OS generated files in both frontend and backend
+frontend/.DS_Store
+backend/.DS_Store
+frontend/Thumbs.db
+backend/Thumbs.db
+
+# Ignore dependency lock files in both frontend and backend
+frontend/package-lock.json
+frontend/yarn.lock
+backend/package-lock.json
+backend/yarn.lock
