@@ -9,8 +9,8 @@ backend/build/
 backend/dist/
 
 # Ignore environment variables in both frontend and backend
-frontend/.env
-backend/.env
+# frontend/.env
+# backend/.env
 
 # Ignore IDE/editor specific files in both frontend and backend
 frontend/.vscode/
